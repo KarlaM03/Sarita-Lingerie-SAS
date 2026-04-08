@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manufacturas Sarita Lingerie SAS</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: #f5f0ec;
+        color: #333;
+    }
+
+    header {
+        background: linear-gradient(90deg, #e8cfcf, #d8b4e2);
+        color: white;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+
+    nav {
+        background-color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #a06b9a;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 40px 20px;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    h2 {
+        color: #a06b9a;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .product img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .product {
+        text-align: center;
+    }
+
+    footer {
+        background-color: #d8b4e2;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    button {
+        background-color: #a06b9a;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Manufacturas Sarita Lingerie SAS</h1>
+    <p>Calidad, diseño y experiencia en ropa interior femenina</p>
+</header>
+
+<nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#productos">Productos</a>
+    <a href="#mision">Misión y Visión</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <div class="card">
+        <p>
+        Somos una empresa ubicada en Bogotá, en la zona industrial de Carvajal, con más de 20 años de experiencia en la fabricación de ropa interior femenina. 
+        Nos especializamos en ofrecer productos de alta calidad que combinan diseño, comodidad y excelentes acabados, fortaleciendo la industria textil nacional.
+        </p>
+    </div>
+</section>
+
+<section id="productos">
+    <h2>Nuestros Productos</h2>
+
+    <div class="grid">
+
+        <div class="product card">
+            <img src="producto1.jpg" alt="Producto 1">
+            <p>Conjunto de lencería</p>
+        </div>
+
+        <div class="product card">
+            <img src="producto2.jpg" alt="Producto 2">
+            <p>Ropa interior femenina</p>
+        </div>
+
+        <div class="product card">
+            <img src="producto3.jpg" alt="Producto 3">
+            <p>Prendas cómodas y elegantes</p>
+        </div>
+
+    </div>
+
+    <p style="text-align:center;">👉 Puedes cambiar las imágenes reemplazando los archivos "producto1.jpg", etc.</p>
+</section>
+
+<section id="mision">
+    <h2>Misión</h2>
+    <div class="card">
+        <p>
+        En Manufacturas Sarita Lingerie SAS trabajamos con compromiso y dedicación para diseñar y confeccionar ropa interior femenina de alta calidad, combinando innovación, comodidad y estilo. 
+        Nos destacamos por impulsar la economía nacional a través de la producción textil con mano de obra colombiana, generando oportunidades laborales dignas, especialmente para mujeres cabeza de familia, 
+        quienes representan la base fundamental de nuestra organización.
+        </p>
+    </div>
+
+    <h2>Visión</h2>
+    <div class="card">
+        <p>
+        Ser una empresa líder en el sector textil a nivel nacional, reconocida por la calidad de nuestros productos, el compromiso social con nuestras trabajadoras y el fortalecimiento de la industria colombiana. 
+        Aspiramos a expandir nuestra presencia en el mercado, manteniendo procesos responsables, sostenibles y enfocados en el bienestar de nuestro equipo humano y nuestros clientes.
+        </p>
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <div class="card">
+        <p><strong>Teléfono:</strong> 313 5795737</p>
+        <p><strong>Ubicación:</strong> Kennedy, Bogotá</p>
+        <p><strong>Horario:</strong> 24 horas</p>
+
+        <button onclick="window.location.href='https://wa.me/573135795737'">
+            Contactar por WhatsApp
+        </button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Manufacturas Sarita Lingerie SAS - Hecho con orgullo colombiano</p>
+</footer>
+
+</body>
+</html>
